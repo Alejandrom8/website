@@ -1,0 +1,27 @@
+.Info {
+    color: #fff;
+}
+
+.Info .careerTitle {
+    color: rgba(115, 82, 3, 1);
+    padding: 1% 0;
+}
+
+.block{
+    width:100%;
+    height: 100vh;
+    padding:5%;
+}
+
+.b1{background-color: #111;}
+.b2{background-color: #17171d;}
+
+.Info .content {
+    width: 90%;
+    padding: 4% 5%;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+    line-height: 1.6em;
+    font-weight: 400;
+}

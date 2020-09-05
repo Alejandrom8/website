@@ -6,12 +6,13 @@
 
 .Menu {
     height: 100%;
-    background-color: #111;
     overflow: hidden;
     display: grid;
-    grid-template: 30vh 20vh 50vh / 100%;
+    grid-template: 30vh 17vh 53vh / 100%;
     padding: 6%;
     color: #fff;
+    background-color: transparent;
+    /*border-right: 1px solid rgba(var(--b6a,219,219,219),1);*/
 }
 
 .Menu__photo-container{
@@ -21,10 +22,17 @@
 }
 
 .Menu__photo{
-    width: 170px;
-    height: 170px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
-    box-shadow: 1px 1px 20px rgba(0,0,0,0.5);
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+    opacity: 0.6;
+    transition: opacity 0.5s;
+}
+
+.Menu__photo:hover{
+    opacity: 1;
+    transition: opacity 0.5s;
 }
 
 .Menu__info {
@@ -44,6 +52,7 @@
     font-size: 25px;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
+    color: rgba(255, 255, 255, 0.8);
     line-height: 30px;
 }
 
@@ -51,6 +60,7 @@
     font-size: 17px;
     font-family: 'Roboto', sans-serif;
     line-height: 22px;
+    color: rgba(255, 255, 255, 0.8);
 }
 
 .career .red {
@@ -81,16 +91,17 @@ a.Menu__option{
     height: 100%;
     display: flex;
     align-items: center;
-    color: #fff;
+    color: #888;
     text-decoration: none;
-    padding: 0 4%;
+    padding: 0 3%;
     border-radius: 30px;
     margin: 4% 0;
+    transition: background-color 0.5s;
 }
 
 a.Menu__option.selected {
-    background-color: #fff;
-    color: #111;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #888;
     text-decoration: none;
 }
 
@@ -99,9 +110,10 @@ a.Menu__option span{
 }
 
 a.Menu__option:hover {
-    background-color: rgba(255, 255, 255, 0.8);
-    color: #111;
+    background-color: rgba(54, 35, 67, 0.5);
+    color: #fff;
     text-decoration: none;
+    transition: background-color 0.5s;
 }
 
 .Menu__button-container {
@@ -120,7 +132,7 @@ a.Menu__option:hover {
     background: transparent;
     padding:0;
     margin:0;
-    color: #ddd;
+    color: #888;
     border: 2px solid rgba(255, 255, 255, 0.8);
     border-radius: 3px;
 }
@@ -131,7 +143,7 @@ a.Menu__option:hover {
     display: none;
     width: 100%;
     height: 10vh;
-    color:#fff;
+    color:#888;
 }
 
 .Menu__button-close {
@@ -144,7 +156,7 @@ a.Menu__option:hover {
 .Menu__button-close__icon {
     width: 60px;
     height: 60px;
-    color:#fff;
+    color:#888;
 }
 
 @media only screen and (max-width: 700px) {
