@@ -20,18 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1efee390-2cd5-4e27-aaa2-55a9652dd556" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/views/Resume.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/styles/info.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/styles/resume.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/styles/Layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/styles/Layout.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/styles/Menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/styles/Menu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Info.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Info.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Resume.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +58,7 @@
       <option name="presentableId" value="Default" />
       <updated>1599265046910</updated>
       <workItem from="1599265052173" duration="5461000" />
-      <workItem from="1599275610087" duration="6645000" />
+      <workItem from="1599275610087" duration="7499000" />
     </task>
     <servers />
   </component>
