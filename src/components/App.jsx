@@ -6,8 +6,20 @@ import Info from '../views/Info';
 import Resume from '../views/Resume';
 import Projects from '../views/Projects';
 import Contact from '../views/Contact';
+import Skills from '../views/Skills';
 
 import './styles/App.css';
+
+function NotFound() {
+  return (
+      <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', width: '100%', height: '100vh'}}>
+        <div style={{textAlign: 'center'}}>
+          <h1>404</h1>
+          <p>this content seams to be not here</p>
+        </div>
+      </div>
+  )
+}
 
 function App() {
   return (
@@ -17,7 +29,9 @@ function App() {
           <Route exact path="/" component={Info} />
           <Route path="/resume" component={Resume} />
           <Route path="/projects" component={Projects} />
-          <Route path="/Contact" component={Contact} />
+          <Route path="/contact" component={Contact} />
+          <Route path="/skills" component={Skills} />
+          <Route component={NotFound} />
         </Switch>
       </Layout>
     </BrowserRouter>

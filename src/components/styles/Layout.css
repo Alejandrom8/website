@@ -20,7 +20,7 @@ body{
 }
 
 .Layout__mainContent .container {
-    padding:0;
+    padding:5%;
 }
 
 .Layout__mainContent::-webkit-scrollbar {
@@ -28,7 +28,7 @@ body{
 }
 
 .Layout__mainContent::-webkit-scrollbar-thumb {
-	background-color: #ddd;
+	background-color: #555;
 	border-radius: 20px;
 }
 

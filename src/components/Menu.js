@@ -6,7 +6,8 @@ import {
     Box,
     At,
     List,
-    X
+    X,
+    Code
 } from 'react-bootstrap-icons';
 
 import './styles/Menu.css';
@@ -14,10 +15,11 @@ import MyPhoto from './images/myphoto.jpg';
 
 
 const options = [
-    {direction: '/', text: 'Información', icon: <InfoSquareFill />},
-    {direction: '/resume', text: 'CV', icon: <FilePersonFill />},
-    {direction: '/projects', text: 'Proyectos', icon: <Box />},
-    {direction: '/contact', text: 'Contacto', icon: <At />},
+    {direction: '/', text: 'Info', icon: <InfoSquareFill />},
+    {direction: '/resume', text: 'Resume', icon: <FilePersonFill />},
+    {direction: '/projects', text: 'Projects', icon: <Box />},
+    {direction: '/skills', text: 'Skills', icon: <Code />},
+    {direction: '/contact', text: 'Contact', icon: <At />},
 ];
 
 function MenuOption(props) {
@@ -85,7 +87,7 @@ export default function Menu() {
                     </h2>
                     <h4 className="career">
                         <span className="red">{"<"}</span>
-                            Ingeniero de software
+                            FullStack Developer
                         <span className="red">{"/>"}</span>
                     </h4>
                 </div>

@@ -20,8 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1efee390-2cd5-4e27-aaa2-55a9652dd556" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CV.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/styles/Layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/styles/Layout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/styles/Menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/styles/Menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Contact.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Info.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Info.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Projects.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Resume.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Resume.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/styles/info.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/styles/info.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,12 +54,35 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../school" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -58,7 +93,10 @@
       <option name="presentableId" value="Default" />
       <updated>1599265046910</updated>
       <workItem from="1599265052173" duration="5461000" />
-      <workItem from="1599275610087" duration="7499000" />
+      <workItem from="1599275610087" duration="8110000" />
+      <workItem from="1599333766420" duration="9033000" />
+      <workItem from="1599499462064" duration="901000" />
+      <workItem from="1599506014179" duration="95000" />
     </task>
     <servers />
   </component>
@@ -78,9 +116,33 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="491" y="155" width="424" height="491" key="FileChooserDialogImpl" timestamp="1599506106537">
+      <screen x="50" y="27" width="1316" height="741" />
+    </state>
+    <state x="491" y="155" width="424" height="491" key="FileChooserDialogImpl/50.27.1316.741@50.27.1316.741" timestamp="1599506106537" />
+    <state width="1293" height="263" key="GridCell.Tab.0.bottom" timestamp="1599499600395">
+      <screen x="50" y="27" width="1316" height="741" />
+    </state>
+    <state width="1293" height="263" key="GridCell.Tab.0.bottom/50.27.1316.741@50.27.1316.741" timestamp="1599499600395" />
+    <state width="1293" height="263" key="GridCell.Tab.0.center" timestamp="1599499600390">
+      <screen x="50" y="27" width="1316" height="741" />
+    </state>
+    <state width="1293" height="263" key="GridCell.Tab.0.center/50.27.1316.741@50.27.1316.741" timestamp="1599499600390" />
+    <state width="1293" height="263" key="GridCell.Tab.0.left" timestamp="1599499600390">
+      <screen x="50" y="27" width="1316" height="741" />
+    </state>
+    <state width="1293" height="263" key="GridCell.Tab.0.left/50.27.1316.741@50.27.1316.741" timestamp="1599499600390" />
+    <state width="1293" height="263" key="GridCell.Tab.0.right" timestamp="1599499600391">
+      <screen x="50" y="27" width="1316" height="741" />
+    </state>
+    <state width="1293" height="263" key="GridCell.Tab.0.right/50.27.1316.741@50.27.1316.741" timestamp="1599499600391" />
     <state x="199" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1599266134879">
       <screen x="54" y="27" width="1312" height="741" />
     </state>
     <state x="199" y="31" width="1022" height="737" key="SettingsEditor/54.27.1312.741@54.27.1312.741" timestamp="1599266134879" />
+    <state x="376" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1599334787845">
+      <screen x="54" y="27" width="1312" height="741" />
+    </state>
+    <state x="376" y="89" width="672" height="678" key="search.everywhere.popup/54.27.1312.741@54.27.1312.741" timestamp="1599334787845" />
   </component>
 </project>

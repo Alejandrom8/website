@@ -12,9 +12,7 @@ export default function Layout({children}) {
                 <Menu />
             </div>
             <div className="Layout__mainContent">
-                <div className="container">
                 {children}
-                </div>
             </div>
         </div>
     )

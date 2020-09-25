@@ -6,7 +6,7 @@ export default function Resume() {
     const handleDocumentLoaded = () => setLoading(false);
 
     return (
-        <div>
+        <div className="container">
             <h1>Curriculum</h1>
             {loading ? <p>Cargando...</p> : ''}
             <div className="cvContainer">

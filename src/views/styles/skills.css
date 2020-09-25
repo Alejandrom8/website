@@ -1,0 +1,46 @@
+.SkillSection {
+    height: auto;
+    padding-bottom: 4%;
+}
+
+.SkillSection .title {
+    color:rgba(255, 255, 255, 0.8);
+}
+
+.SkillSection__body {
+    padding: 4% 0;
+    height: auto;
+}
+
+.Skill {
+    width: 100%;
+    text-align: center;
+    margin: 1% 0;
+}
+
+.Skill__logo {
+    width: auto;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Skill__logo img {
+    width: 35%;
+    max-height: 100px;
+}
+
+.Skill__title {
+    padding: 5%;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.Skill__title h5 {
+    margin: 0;
+}
+
+.Skill__level span{
+    text-transform: capitalize;
+    font-weight: bold;
+}
